@@ -20,6 +20,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ```bash
 # Install wttr.rs
+git clone https://github.com/kwon-evan/wttr.rs.git && cd wttr.rs
 cargo build --release
 cargo install --path .
 ```
