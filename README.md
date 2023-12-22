@@ -12,13 +12,14 @@ Nam-gu, South Korea: ⛅️  -9°C
 
 ## Install
 
-If you are not using Rust, you can install rust via the following command:
+> If you are not using Rust, you can install rust via the following command:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ```bash
+# Install wttr.rs
 cargo build --release
 cargo install --path .
 ```
