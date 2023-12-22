@@ -1,0 +1,10 @@
+[package]
+name = "wttr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.11", features = ["derive"] }
+reqwest = { version = "0.11.23" }
+serde_json = "1.0.108"
+tokio = { version = "1.35.1", features = ["full"] }
